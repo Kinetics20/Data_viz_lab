@@ -1,7 +1,9 @@
 [project]
 name = "data-visualisation"
 version = "0.1.0"
-description = "Add your description here"
+description = "Practice and exploration of data visualisation using Seaborn, Matplotlib, and JupyterLab."
+authors = ["Piotr Lipinski <kinetics20@gmail.com>"]
+license = "Beerware"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
