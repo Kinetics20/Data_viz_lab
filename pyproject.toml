@@ -10,6 +10,7 @@ dependencies = [
     "bokeh>=3.7.2",
     "jupyterlab>=4.4.0",
     "matplotlib>=3.10.1",
+    "notebook>=7.0.7",
     "numpy>=2.2.4",
     "pandas>=2.2.3",
     "seaborn>=0.13.2",

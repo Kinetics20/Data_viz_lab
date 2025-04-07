@@ -278,6 +278,7 @@ dependencies = [
     { name = "bokeh" },
     { name = "jupyterlab" },
     { name = "matplotlib" },
+    { name = "notebook" },
     { name = "numpy" },
     { name = "pandas" },
     { name = "seaborn" },
@@ -288,6 +289,7 @@ requires-dist = [
     { name = "bokeh", specifier = ">=3.7.2" },
     { name = "jupyterlab", specifier = ">=4.4.0" },
     { name = "matplotlib", specifier = ">=3.10.1" },
+    { name = "notebook", specifier = ">=7.0.7" },
     { name = "numpy", specifier = ">=2.2.4" },
     { name = "pandas", specifier = ">=2.2.3" },
     { name = "seaborn", specifier = ">=0.13.2" },
@@ -906,6 +908,22 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/83/f8/51569ac65d696c8ecbee95938f89d4abf00f47d58d48f6fbabfe8f0baefe/nest_asyncio-1.6.0.tar.gz", hash = "sha256:6f172d5449aca15afd6c646851f4e31e02c598d553a667e38cafa997cfec55fe", size = 7418 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a0/c4/c2971a3ba4c6103a3d10c4b0f24f461ddc027f0f09763220cf35ca1401b3/nest_asyncio-1.6.0-py3-none-any.whl", hash = "sha256:87af6efd6b5e897c81050477ef65c62e2b2f35d51703cae01aff2905b1852e1c", size = 5195 },
+]
+
+[[package]]
+name = "notebook"
+version = "7.0.7"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "jupyter-server" },
+    { name = "jupyterlab" },
+    { name = "jupyterlab-server" },
+    { name = "notebook-shim" },
+    { name = "tornado" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/7d/97/369dd928d0561e7a8ae673156d2470664a83935320b068fa35b54d19f0bd/notebook-7.0.7.tar.gz", hash = "sha256:3bcff00c17b3ac142ef5f436d50637d936b274cfa0b41f6ac0175363de9b4e09", size = 3936954 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f2/57/2f8d59ddc7f2d0d8ac4f80f869545bc44646fc78c1c083b3655c58e3edfb/notebook-7.0.7-py3-none-any.whl", hash = "sha256:289b606d7e173f75a18beb1406ef411b43f97f7a9c55ba03efa3622905a62346", size = 4020164 },
 ]
 
 [[package]]
